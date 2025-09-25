@@ -11,5 +11,15 @@ public class VariableApp {
         System.out.println("My middle initial is " + middleInitial);
         System.out.println("If someone asked if I have pets I would say: " + pets);
         System.out.println("Here's a nice message for you: " + niceMess);
+
+        int days = 7;
+        double coffee = 4.99;
+        char myFavLetter = 'A';
+        boolean raining = false;
+
+        System.out.println("There are " + days + " days in a week.");
+        System.out.println("The price of a coffee is $" + coffee + ".");
+        System.out.println("My favorite letter is " + myFavLetter + ".");
+        System.out.println("Is it raining currently?: " + raining + ".");
     }
 }
